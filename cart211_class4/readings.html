@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CART 211: Personal Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR SECTION =================================================================================================================================!-->
+    <ul class="menu">
+  		<li class="logo"><a href="#" class="home">Home</a></li>
+
+  	<div class="links">
+  		<li title="about."><a href="index.html" class="about">about</a></li>
+  		<li title="readings."><a href="#readings" class="portfolio">readings</a></li>
+  		<li title="assignments."><a href="assignments.html" class="contact">assignments</a></li>
+	</div>
+	</ul>
+
+  <!-- HEADER SECTION =================================================================================================================================!-->
+	<section id="home">
+
+
+		<div class="background">
+
+			<h1 class="myH1">cart 211: computing &<br><span class="break">network culture</span><span class="dot">.</span></h1>
+
+			<div class="name">
+				<p>readings<span class="dot">.</span></p>
+			</div>
+
+      <div class="scroll-down">
+        <p>-- scroll down ↓ --</p>
+      </div>
+
+		</div>
+	</section>
+
+  <!-- READINGS SECTION =================================================================================================================================!-->
+
+  <section id="readings">
+
+    <div class="reflections">
+      <h2 class="myH2">week 4<span class="dot">.</span></h2>
+      <hr class="underline">
+      <h3 class="myH3">“Web Work: A History of Internet Art” by Rachel Greene.</h3>
+
+      <p class="myP">Art seems to always find its way into things. Art can be portrayed with writing, drawings, paintings, graffiti, sculptures, music, etc. So, it is only right that Art would take place on the Internet with the help of scripts, websites, search engines and other resource tools provided by the Internet. In the 90s, numerous artists expressed themselves through websites with the assist of HTML. <a class="pdf" href="/pdf/week4.pdf" target="_blank">Read more.</a></p>
+    </div>
+
+      <div class="reflections">
+        <h2 class="myH2">week 3<span class="dot">.</span></h2>
+        <hr class="underline">
+        <h3 class="myH3">“The Time Canada Wanted Its Own Internet Because It Thought the US Would Mess It Up” by Daniel Joseph.</h3>
+        <h3 class="myH3">“From Counterculture to Cyberculture” by Fred Turner.</h3>
+
+        <p class="myP">I was fascinated by the fact that, in the years of 1960s-1970s, scientists had grand plans for the future. Just after the “Memex” they planned on going even further to the point where the first digital computer was invented. They had big aspirations for technological advancements , but around this time, advanced technology was exclusive to only scientists and researchers at prestigious universities. Although, if it weren’t for the devices being in the hands of scientists and researchers, we wouldn’t have won World War II. <a class="pdf" href="/pdf/week3.pdf" target="_blank">Read more.</a></p>
+      </div>
+
+      <div class="reflections">
+      <h2 class="myH2">week 2<span class="dot">.</span></h2>
+      <hr class="underline">
+      <h3 class="myH3">“As We May Think” by Vannevar Bush.</h3>
+
+      <p class="myP">Upon reading the text, I found it crazy how far we’ve become in terms of technological development from now and then. When first reading about the section where they introduce the “memex”, I couldn’t help but think: don’t we already have something like this which is basically a computer? Then I realized that this article was issued in July 1945. Back then, their thought process to develop new technology was complex and expensive to create. To create a device that can store information like a memory bank would’ve taken years to create, but it was planned thoroughly, and it worked! <a class="pdf" href="/pdf/week2.pdf" target="_blank">Read more.</a></p>
+      </div>
+
+  </section>
+
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (100) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 300, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location. = hash;
+        });
+      } // End if
+    });
+  });
+
+  </script>
+</body>
+</html>
