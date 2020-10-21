@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family: Roboto, sans-serif;
+}
+
+body{
+  background-color: #181818
+}
+
+div.wrap{
+  background-color: #b42831;
+  height: 100vh;
+  width: 70vh;
+  display: grid;
+  grid-template-rows:  60% 20% 20%;
+  margin-right: 0;
+}
+
+div.parent{
+  display: grid;
+  grid-template-columns:  6fr 1fr;
+}
+
+section.rectangles{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  transform: rotate(-45deg);
+}
+
+.a1{
+  grid-column: 2 / 4;
+  background-color: #82252f;
+}
+
+.a2{
+  grid-column: 2 / 4;
+  background-color: #82252f;
+}
+
+.a3{
+  grid-column: 2 / 4;
+  background-color: #82252f;
+}
+
+.a4{
+  grid-column: 1 / 3;
+  background-color: #181818;
+}
+
+.a5{
+  grid-column: 2 / 4;
+  background-color: #82252f;
+}
+
+.a6{
+  grid-column: 1 / 3;
+  background-color: #181818;
+}
+
+.a7{
+  grid-column: 1 / 3;
+  background-color: #181818;
+}
+
+.a8{
+  grid-column: 1 / 3;
+  background-color: #181818;
+}
+
+section.footer{
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: 1.6fr .5fr 2fr 2fr;
+  grid-template-rows:  .1fr .1fr .1fr .1fr .1fr;
+}
+
+p.bold{
+  font-weight: 500;
+  font-size: 19pt;
+}
+
+p.small{
+  font-weight: 300;
+  font-size: 8pt;
+}
+
+p.inbetween{
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+
+.b2{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.b3{
+  grid-row: 3 / 4;
+}
+
+.b4{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-self: end;
+}
+
+.b5{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.b6{
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.b7{
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  align-self: end;
+}
+
+.b8{
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+.b9{
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.b10{
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  align-self: end;
+}
+
+.b11{
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+.b12{
+  grid-column: 4 / 5;
+  grid-row: 2 / 6;
+}
+
+.description{
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.description a{
+  color: white;
+}
