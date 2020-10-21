@@ -468,7 +468,7 @@ figcaption {
 }
 
 /* READINGS SECTION ==========================================================================================================================*/
-#readings {
+#homework {
   width: 100%;
   padding-left: 100px;
 }
@@ -477,14 +477,14 @@ figcaption {
   width: 50%;
 }
 
-.reflections {
+.week {
   padding: 100px;
   padding-top: 0;
   width: 80%;
 }
 
 @media screen and (max-width: 1000px) {
-  #readings {
+  #homework {
     display: block;
   }
 
