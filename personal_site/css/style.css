@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
   padding: 0;
   z-index: 11;
   animation-name: menuAnimation;
-  animation-duration: 5s;
+  animation-duration: 2s;
   background-color: rgba(255, 255, 255, .0);
   backdrop-filter: url(filters.svg#filter) blur(4px)
 }
