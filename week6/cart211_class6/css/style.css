@@ -148,7 +148,7 @@ h2.subheader {
   text-align: center;
   font-size: 16pt;
   font-weight: 300;
-  transition: 2s;
+  transition: font-size 1s;
 }
 
 .scroll-down:hover{
