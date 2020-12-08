@@ -27,7 +27,7 @@ marchBTN.onclick = function() {
     marchText.style.top = `0`;
     marchText.style.opacity = `1`;
     //Additional text
-    moremarchText.style.top = `50vh`;
+    moremarchText.style.top = `45vh`;
     moremarchText.style.color = `transparent`;
     moremarchText.style.textShadow = `0 0 8px rgba(0,0,0,0.5)`;
     //Button text
@@ -64,7 +64,7 @@ aprilBTN.onclick = function() {
     aprilText.style.top = `0`;
     aprilText.style.opacity = `1`;
     //Additional text
-    moreaprilText.style.top = `50vh`;
+    moreaprilText.style.top = `45vh`;
     moreaprilText.style.color = `transparent`;
     moreaprilText.style.textShadow = `0 0 8px rgba(0,0,0,0.5)`;
     //Button text
@@ -101,7 +101,7 @@ mayBTN.onclick = function() {
     mayText.style.top = `0`;
     mayText.style.opacity = `1`;
     //Additional text
-    moremayText.style.top = `50vh`;
+    moremayText.style.top = `45vh`;
     moremayText.style.color = `transparent`;
     moremayText.style.textShadow = `0 0 8px rgba(0,0,0,0.5)`;
     //Button text
@@ -138,7 +138,7 @@ julyBTN.onclick = function() {
     julyText.style.top = `0`;
     julyText.style.opacity = `1`;
     //Additional text
-    morejulyText.style.top = `50vh`;
+    morejulyText.style.top = `45vh`;
     morejulyText.style.color = `transparent`;
     morejulyText.style.textShadow = `0 0 8px rgba(0,0,0,0.5)`;
     //Button text
@@ -175,7 +175,7 @@ octoberBTN.onclick = function() {
     octoberText.style.top = `0`;
     octoberText.style.opacity = `1`;
     //Additional text
-    moreoctoberText.style.top = `50vh`;
+    moreoctoberText.style.top = `45vh`;
     moreoctoberText.style.color = `transparent`;
     moreoctoberText.style.textShadow = `0 0 8px rgba(0,0,0,0.5)`;
     //Button text

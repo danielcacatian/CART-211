@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
 div#homepage{
   width: 100%;
   height: 80vh;
-  margin-top: 15vh;
+  padding-top: 15vh;
 }
 
 #homepage p{
@@ -126,6 +126,8 @@ h3{
   font-size: 34pt;
   font-weight: normal;
   margin: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 p{
@@ -142,18 +144,20 @@ p{
 }
 
 p.main_text{
+  position: relative;
+  top: 0;
   transition: all .4s;
 }
 
 .additonal_text{
   position: absolute;
-  top: 50vh;
+  top: 45vh;
   color: transparent;
   text-shadow: 0 0 8px rgba(0,0,0,0.5);
   transition: all .4s;
 }
 
-/*BUT... --------------------------------------------------------------------*/
+/*BUT... (Additional text) --------------------------------------------------------------------*/
 .btn{
   font-size: 18pt;
   padding: 10px 2px 10px 2px;
