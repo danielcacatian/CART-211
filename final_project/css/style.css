@@ -14,6 +14,17 @@ body::-webkit-scrollbar {
   width: 0 !important;
 }
 
+.background {
+  position: absolute;
+  background-image: url("../images/Background.svg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
 /* NAVIGATION BAR ----------------------------------------------------------------- */
 /* Navbar .css code provided by WEBLABLA @mpokoj at Codepen.io/mpokoj */
 .navbar ul li{
