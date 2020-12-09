@@ -8,9 +8,9 @@ let marchImage = document.querySelector(`#marchImage`);
 marchBTN.onclick = function() {
   let mySrc = marchImage.getAttribute(`src`);
   //conditional
-  if (mySrc === `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`) {
+  if (mySrc === `images/EmptyOffice.jpg`) {
     //Image
-    marchImage.setAttribute(`src`, `https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80`);
+    marchImage.setAttribute(`src`, `images/CERB.jpg`);
     //Main text
     marchText.style.top = `-100%`;
     marchText.style.opacity = `0`;
@@ -22,7 +22,7 @@ marchBTN.onclick = function() {
     marchBTN.textContent = `↑ Go back ↑`
   } else {
     //Image
-    marchImage.setAttribute(`src`, `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`);
+    marchImage.setAttribute(`src`, `images/EmptyOffice.jpg`);
     //Main text
     marchText.style.top = `0`;
     marchText.style.opacity = `1`;
@@ -45,9 +45,9 @@ let aprilImage = document.querySelector(`#aprilImage`);
 aprilBTN.onclick = function() {
   let mySrc = aprilImage.getAttribute(`src`);
   //conditional
-  if (mySrc === `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`) {
+  if (mySrc === `images/MTL.jpg`) {
     //Image
-    aprilImage.setAttribute(`src`, `https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80`);
+    aprilImage.setAttribute(`src`, `images/Nature.jpg`);
     //Main text
     aprilText.style.top = `-100%`;
     aprilText.style.opacity = `0`;
@@ -59,7 +59,7 @@ aprilBTN.onclick = function() {
     aprilBTN.textContent = `↑ Go back ↑`
   } else {
     //Image
-    aprilImage.setAttribute(`src`, `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`);
+    aprilImage.setAttribute(`src`, `images/MTL.jpg`);
     //Main text
     aprilText.style.top = `0`;
     aprilText.style.opacity = `1`;
@@ -82,9 +82,9 @@ let mayImage = document.querySelector(`#mayImage`);
 mayBTN.onclick = function() {
   let mySrc = mayImage.getAttribute(`src`);
   //conditional
-  if (mySrc === `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`) {
+  if (mySrc === `images/Police.jpg`) {
     //Image
-    mayImage.setAttribute(`src`, `https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80`);
+    mayImage.setAttribute(`src`, `images/BLM.jpg`);
     //Main text
     mayText.style.top = `-100%`;
     mayText.style.opacity = `0`;
@@ -96,7 +96,7 @@ mayBTN.onclick = function() {
     mayBTN.textContent = `↑ Go back ↑`
   } else {
     //Image
-    mayImage.setAttribute(`src`, `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`);
+    mayImage.setAttribute(`src`, `images/Police.jpg`);
     //Main text
     mayText.style.top = `0`;
     mayText.style.opacity = `1`;
@@ -119,9 +119,9 @@ let julyImage = document.querySelector(`#julyImage`);
 julyBTN.onclick = function() {
   let mySrc = julyImage.getAttribute(`src`);
   //conditional
-  if (mySrc === `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`) {
+  if (mySrc === `images/2ndWave.jpg`) {
     //Image
-    julyImage.setAttribute(`src`, `https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80`);
+    julyImage.setAttribute(`src`, `images/5G.jpg`);
     //Main text
     julyText.style.top = `-100%`;
     julyText.style.opacity = `0`;
@@ -133,7 +133,7 @@ julyBTN.onclick = function() {
     julyBTN.textContent = `↑ Go back ↑`
   } else {
     //Image
-    julyImage.setAttribute(`src`, `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`);
+    julyImage.setAttribute(`src`, `images/2ndWave.jpg`);
     //Main text
     julyText.style.top = `0`;
     julyText.style.opacity = `1`;
@@ -156,9 +156,9 @@ let octoberImage = document.querySelector(`#octoberImage`);
 octoberBTN.onclick = function() {
   let mySrc = octoberImage.getAttribute(`src`);
   //conditional
-  if (mySrc === `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`) {
+  if (mySrc === `images/Elections.jpg`) {
     //Image
-    octoberImage.setAttribute(`src`, `https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80`);
+    octoberImage.setAttribute(`src`, `images/JoeBiden.jpg`);
     //Main text
     octoberText.style.top = `-100%`;
     octoberText.style.opacity = `0`;
@@ -170,7 +170,7 @@ octoberBTN.onclick = function() {
     octoberBTN.textContent = `↑ Go back ↑`
   } else {
     //Image
-    octoberImage.setAttribute(`src`, `https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80`);
+    octoberImage.setAttribute(`src`, `images/Elections.jpg`);
     //Main text
     octoberText.style.top = `0`;
     octoberText.style.opacity = `1`;
