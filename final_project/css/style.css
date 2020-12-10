@@ -583,10 +583,46 @@ div#conclusion{
   padding-right: 25%;
 }
 
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #064e7f;
+  height: 6vh;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14pt;
+  color: white;
+}
+
+footer a {
+  font-size: 14pt;
+  color: white;
+  text-decoration: none;
+}
+
 /* Media queries for section*/
 @media screen and (max-width: 1000px){
+  div#conclusion{
+    height: 60vh;
+  }
+
   #conclusion h1{
     text-align: left;
     font-size: 60pt
+  }
+
+  footer{
+    height: 4vh;
+    padding-right: 40px;
+  }
+
+  footer p {
+    font-size: 10pt;
+  }
+
+  footer a {
+    font-size: 10pt;
   }
 }
