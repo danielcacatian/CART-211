@@ -152,6 +152,29 @@ div#homepage{
   transition: 0.5s;
 }
 
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  div#homepage{
+    height: 85vh;
+    padding-top: 10vh;
+    padding-bottom: 0;
+  }
+
+  #homepage p{
+    font-size: 24pt;
+    padding-right: 10%;
+  }
+
+  .button a{
+    font-size: 24pt;
+  }
+
+  .scroll-down figure img{
+    height: 30px;
+    width: 50%;
+  }
+}
+
 /* TYPOGRAPHY ----------------------------------------------------------------- */
 h1{
   position: relative;
@@ -206,6 +229,23 @@ p{
   line-height: 150%;
 }
 
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  h1 span{
+    font-size: 150pt;
+  }
+
+  .date h2{
+    font-size: 36pt;
+    text-align: left;
+  }
+
+  h3{
+    font-size: 24pt;
+    font-weight: bold;
+  }
+}
+
 /* TEXT CONTENT ----------------------------------------------------------------- */
 .p_content{
   height: 60vh;
@@ -251,6 +291,13 @@ p.main_text{
   transition: all .4s;
 }
 
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  .btn{
+    z-index: 99;
+  }
+}
+
 /* IMAGES ----------------------------------------------------------------- */
 .content_image figure{
   overflow: hidden;
@@ -279,15 +326,30 @@ p.main_text{
   transform: translateX(95%);
 }
 
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  .content_image figure{
+    display: none;
+  }
+
+  .right_content .content_image{
+    display: none;
+  }
+
+  .left_content .content_image{
+    display: none;
+  }
+}
+
 /* TIMELINE ----------------------------------------------------------------- */
 .date{
   position: absolute;
-    right: 50%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transform: translateX(50%);
-    background-color: #fff;
-    z-index: 1;
+  right: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transform: translateX(50%);
+  background-color: #fff;
+  z-index: 1;
 }
 
 .timeline{
@@ -312,6 +374,20 @@ ul{
   width: 15px;
   background: #27cc8f;
   z-index: 0;
+}
+
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  .date{
+    right: 40%;
+    width: 100%;
+  }
+
+  .timeline ul:before{
+    right: 80%;
+    transform: translateX(0);
+    width: 10px;
+  }
 }
 
 /* line 2 ------------------------------------- */
@@ -378,6 +454,14 @@ ul{
   z-index:2;
   margin:0;
 }
+
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  .timeline ul li:before{
+    right: 65%;
+  }
+}
+
 
 /*dot 2 -------------------------------------*/
 .timeline ul.change1 li:before{
@@ -451,6 +535,42 @@ ul{
   bottom: 40%;
 }
 
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  .timeline ul li:nth-child(odd) .left_content{
+    text-align: left;
+    top: -30%;
+    right: -80%;
+    width: 120%;
+    z-index: 2;
+  }
+
+  .timeline ul li:nth-child(odd) .right_content{
+    text-align: left;
+    top: -30%;
+    left: 55%;
+    width: 120%;
+    z-index: 2;
+  }
+
+  .timeline ul#march_content li:nth-child(odd) .right_content{
+    display: none;
+  }
+
+  .timeline ul.change2 li:nth-child(odd) .right_content{
+    display: none;
+  }
+
+  .timeline ul.change4 li:nth-child(odd) .right_content{
+    display: none;
+  }
+
+  .timeline ul.end li{
+    height: 20vh;
+  }
+
+}
+
 /* CONCLUSION ----------------------------------------------------------------------- */
 div#conclusion{
   width: 100%;
@@ -461,4 +581,12 @@ div#conclusion{
   text-align: left;
   font-size: 20pt;
   padding-right: 25%;
+}
+
+/* Media queries for section*/
+@media screen and (max-width: 1000px){
+  #conclusion h1{
+    text-align: left;
+    font-size: 60pt
+  }
 }
