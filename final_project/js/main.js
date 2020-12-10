@@ -40,6 +40,7 @@ marchBTN.onclick = function() {
 let aprilText = document.querySelector(`#april_text`);
 let moreaprilText = document.querySelector(`#additonal_april_text`);
 let aprilBTN = document.querySelector(`#april_btn`);
+let aprilDonate = document.querySelector(`#april_donate`);
 let aprilImage = document.querySelector(`#aprilImage`);
 
 aprilBTN.onclick = function() {
@@ -57,6 +58,9 @@ aprilBTN.onclick = function() {
     moreaprilText.style.textShadow = `0 0 0 transparent`;
     //Button text
     aprilBTN.textContent = `↑ Go back ↑`
+    //Donate button appears
+    aprilDonate.style.pointerEvents = `all`;
+    aprilDonate.style.opacity = `1`;
   } else {
     //Image
     aprilImage.setAttribute(`src`, `images/MTL.jpg`);
@@ -77,6 +81,7 @@ aprilBTN.onclick = function() {
 let mayText = document.querySelector(`#may_text`);
 let moremayText = document.querySelector(`#additonal_may_text`);
 let mayBTN = document.querySelector(`#may_btn`);
+let mayDonate = document.querySelector(`#may_donate`);
 let mayImage = document.querySelector(`#mayImage`);
 
 mayBTN.onclick = function() {
@@ -93,7 +98,10 @@ mayBTN.onclick = function() {
     moremayText.style.color = `black`;
     moremayText.style.textShadow = `0 0 0 transparent`;
     //Button text
-    mayBTN.textContent = `↑ Go back ↑`
+    mayBTN.textContent = `↑ Go back ↑`;
+    //Donate button appears
+    mayDonate.style.pointerEvents = `all`;
+    mayDonate.style.opacity = `1`;
   } else {
     //Image
     mayImage.setAttribute(`src`, `images/Police.jpg`);
@@ -151,6 +159,7 @@ julyBTN.onclick = function() {
 let octoberText = document.querySelector(`#october_text`);
 let moreoctoberText = document.querySelector(`#additonal_october_text`);
 let octoberBTN = document.querySelector(`#october_btn`);
+let octoberDonate = document.querySelector(`#october_donate`);
 let octoberImage = document.querySelector(`#octoberImage`);
 
 octoberBTN.onclick = function() {
@@ -168,6 +177,9 @@ octoberBTN.onclick = function() {
     moreoctoberText.style.textShadow = `0 0 0 transparent`;
     //Button text
     octoberBTN.textContent = `↑ Go back ↑`
+    //Donate button appears
+    octoberDonate.style.pointerEvents = `all`;
+    octoberDonate.style.opacity = `1`;
   } else {
     //Image
     octoberImage.setAttribute(`src`, `images/Elections.jpg`);
